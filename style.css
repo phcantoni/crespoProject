@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    z-index: 1;
+}
+header .firstImgHeader {
+    width: 7vw;
+}
+header .firstImgHeader:hover {
+    cursor: pointer;
+}
+header .firstNavHeader {
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+}
+header .firstNavHeader ul {
+    display: flex;
+    justify-content: space-between;
+    width: 42vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75em;
+    font-weight: 500;
+    color: #9767A9;
+    list-style: none;
+}
+header .firstNavHeader li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 6vw;
+    height: 5vh;
+}
+header .firstNavHeader li:hover {
+    position: relative;
+    cursor: pointer;
+    font-weight: bolder;
+}
+header .firstNavHeader .liTwoFirstNavHeader {
+    width: 11vw;
+}
+header .firstNavHeader .liFiveFirstNavHeader {
+    width: 7vw;
+}
+header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5vw;
+    height: 5vh;
+    border: #9767A9 solid 2px;
+    border-radius: 20px;
+}
+header section img {
+    width: 1.5vw;
+    height: 3vh;
+    margin: 3px 3px 0 0;
+}
+header section input {
+    width: 10vw;
+    border: none;
+    outline: 0;
+}
+header .secondNavHeader {
+    display: flex;
+    justify-content: flex-end;
+    width: 11.5vw;
+}
+header .secondNavHeader ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;    
+}
+header .secondNavHeader li {
+    width: 3.1vw;
+}
+header .secondNavHeader img {
+    width: 2.2vw;
+}
+header .secondNavHeader img:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+main .firstSectionMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url(./assets/noPath1.png);
+    background-size: cover;
+}
+main .firstSectionMain h1 {
+    display: flex;
+    align-items: flex-end;
+    width: 17vw;
+    height: 43vh;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5em;
+    color: white;
+    line-height: 1em;
+}
+main .firstSectionMain p {
+    display: flex;
+    align-items: flex-end;
+    width: 25vw;
+    height: 33vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6em;
+    color: white;
+    line-height: 1.4em;
+    word-spacing: 3px;
+}
+main .secondSectionMain {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 37vh;
+    background: #9767A9;
+}
+main .secondSectionMain h2 {
+    width: 51vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: white;
+}
+main .secondSectionMain p {
+    display: flex;
+    align-items: flex-end;
+    width: 30vw;
+    height: 32vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    color: white;
+}
+main .thirdSectionMain section {
+    width: 10vw;
+    height: 10vh;
+    border: red solid;
+}
