@@ -129,7 +129,7 @@ main .secondSectionMain {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 37vh;
+    height: 45vh;
     background: #9767A9;
 }
 main .secondSectionMain h2 {
@@ -141,8 +141,8 @@ main .secondSectionMain h2 {
 main .secondSectionMain p {
     display: flex;
     align-items: flex-end;
-    width: 30vw;
-    height: 32vh;
+    width: 27vw;
+    height: 40vh;
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     color: white;
@@ -154,10 +154,16 @@ main .thirdSectionMain {
     border: blue solid;
 }
 main .thirdSectionMain .sectionOneThirdSectionMain {
-    height: 350vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 380vh;
     border: aqua solid;
 }
 main .thirdSectionMain .sectionTwoThirdSectionMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     height: 350vh;
     margin-left: 0.5em;
     border: hotpink solid;
@@ -172,6 +178,18 @@ main .thirdSectionMain img {
     width: 40vw;
     height: 70vh;
     border: red solid;
+}
+main .sectionTwoThirdSectionMain figure:last-child {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 30vh;
+    border: magenta solid;
+}
+main .sectionTwoThirdSectionMain img:last-child {
+    width: 30vw;
+    height: 10vh;
+    border: brown solid;
 }
 main .thirdSectionMain figcaption {
     width: 30vw;
