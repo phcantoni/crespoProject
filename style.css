@@ -150,21 +150,22 @@ main .secondSectionMain p {
 main .thirdSectionMain {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
-    height: 30vh;
     border: blue solid;
 }
-/* main .thirdSectionMain section {
-    width: 50vw;
-    height: 10vh;
-    border: red solid;
-}*/
+main .thirdSectionMain .sectionOneThirdSectionMain {
+    height: 350vh;
+    border: aqua solid;
+}
+main .thirdSectionMain .sectionTwoThirdSectionMain {
+    height: 350vh;
+    margin-left: 0.5em;
+    border: hotpink solid;
+}
 main .thirdSectionMain figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0.5em;
     border: yellow solid;
 }
 main .thirdSectionMain img {
