@@ -179,6 +179,27 @@ main .thirdSectionMain img {
     height: 70vh;
     border: red solid;
 }
+main .figOneThirdSectionMain figcaption {
+    display: flex;
+    align-items: flex-end;
+    height: 30vh;
+}
+main .figOneThirdSectionMain div {
+    background-color: #9767A9;
+}
+main .figOneThirdSectionMain h3 {
+    width: 18vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: white;
+}
+main .figOneThirdSectionMain span {
+    font-size: 1.8em;
+}
+main .figOneThirdSectionMain p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
 main .sectionTwoThirdSectionMain figure:last-child {
     display: flex;
     justify-content: center;
