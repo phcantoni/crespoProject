@@ -150,14 +150,16 @@ main .secondSectionMain p {
 main .thirdSectionMain {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     width: 100%;
+    height: 498vh;
     border: blue solid;
 }
 main .thirdSectionMain .sectionOneThirdSectionMain {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 380vh;
+    height: 443.5vh;
     border: aqua solid;
 }
 main .thirdSectionMain .sectionTwoThirdSectionMain {
@@ -170,6 +172,7 @@ main .thirdSectionMain .sectionTwoThirdSectionMain {
 }
 main .thirdSectionMain figure {
     display: flex;
+    width: 40.5vw;
     flex-direction: column;
     align-items: center;
     border: yellow solid;
@@ -179,12 +182,28 @@ main .thirdSectionMain img {
     height: 70vh;
     border: red solid;
 }
+main .thirdSectionMain figcaption {
+    width: 30vw;
+    border: green solid;
+}
+main .thirdSectionMain div {
+    border: orangered solid;
+}
+main .figOneThirdSectionMain {
+    height: 115vh;
+}
 main .figOneThirdSectionMain figcaption {
     display: flex;
     align-items: flex-end;
-    height: 30vh;
+    height: 40vh;
 }
 main .figOneThirdSectionMain div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 56vh;
+    padding: 0 1em 1em 1em;
     background-color: #9767A9;
 }
 main .figOneThirdSectionMain h3 {
@@ -192,13 +211,115 @@ main .figOneThirdSectionMain h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.4em;
     color: white;
+    /* border: white solid; */
 }
 main .figOneThirdSectionMain span {
     font-size: 1.8em;
+    /* border: yellow solid; */
 }
 main .figOneThirdSectionMain p {
     font-family: "Montserrat", sans-serif;
     color: white;
+    /* border: white solid; */
+}
+main .figThreeThirdSectionMain {
+    height: 110vh;
+}
+main .figThreeThirdSectionMain figcaption {
+    display: flex;
+    align-items: flex-end;
+    height: 19.5vh;
+}
+main .figThreeThirdSectionMain div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 41vh;
+    padding: 0 1em 1em 1em;
+    background-color: #9767A9;
+}
+main .figThreeThirdSectionMain h3 {
+    width: 15vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: white;
+    /* border: white solid; */
+}
+main .figThreeThirdSectionMain span {
+    font-size: 1.8em;
+    /* border: yellow solid; */
+}
+main .figThreeThirdSectionMain p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    /* border: white solid; */
+}
+main .figFiveThirdSectionMain {
+    height: 112vh;
+}
+main .figFiveThirdSectionMain figcaption {
+    display: flex;
+    align-items: flex-end;
+    height: 28vh;
+}
+main .figFiveThirdSectionMain div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 48vh;
+    padding: 0 1em 1em 1em;
+    background-color: #9767A9;
+}
+main .figFiveThirdSectionMain h3 {
+    width: 18vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: white;
+    /* border: white solid; */
+}
+main .figFiveThirdSectionMain span {
+    font-size: 1.8em;
+    /* border: yellow solid; */
+}
+main .figFiveThirdSectionMain p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    /* border: white solid; */
+}
+main .figSevenThirdSectionMain {
+    height: 105vh;
+}
+main .figSevenThirdSectionMain figcaption {
+    display: flex;
+    align-items: flex-end;
+    height: 18.4vh;
+}
+main .figSevenThirdSectionMain div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 39vh;
+    padding: 0 1em 1em 1em;
+    background-color: #9767A9;
+}
+main .figSevenThirdSectionMain h3 {
+    width: 18vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: white;
+    /* border: white solid; */
+}
+main .figSevenThirdSectionMain span {
+    font-size: 1.8em;
+    /* border: yellow solid; */
+}
+main .figSevenThirdSectionMain p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    /* border: white solid; */
 }
 main .sectionTwoThirdSectionMain figure:last-child {
     display: flex;
@@ -211,11 +332,4 @@ main .sectionTwoThirdSectionMain img:last-child {
     width: 30vw;
     height: 10vh;
     border: brown solid;
-}
-main .thirdSectionMain figcaption {
-    width: 30vw;
-    border: green solid;
-}
-main .thirdSectionMain div {
-    border: orangered solid;
 }
