@@ -402,3 +402,52 @@ main .sectionTwoThirdSectionMain img:last-child {
     width: 30vw;
     height: 10vh;
 }
+main .fourthSectionMain {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+main .fourthSectionMain section {
+    margin: 0 0.2em;
+}
+main .figOneFourthSectionMain img {
+    width: 18vw;
+    height: 60vh;
+}
+main .figTwoFourthSectionMain img {
+    width: 18vw;
+    height: 30vh;
+}
+main .figThreeFourthSectionMain img {
+    width: 14vw;
+    height: 30vh;
+}
+main .figFourFourthSectionMain img {
+    width: 14vw;
+    height: 29.4vh;
+}
+main .figFiveFourthSectionMain img {
+    width: 14vw;
+    height: 30vh;
+}
+main .figSixFourthSectionMain img {
+    width: 14vw;
+    height: 60vh;
+}
+main .figSevenFourthSectionMain img {
+    width: 14vw;
+    height: 30vh;
+}
+main .figEightFourthSectionMain img {
+    width: 18vw;
+    height: 90.6vh;
+    margin: 0 0.2em;
+}
+main .figNineFourthSectionMain img {
+    width: 14vw;
+    height: 30vh;
+}
+main .figTenFourthSectionMain img {
+    width: 14vw;
+    height: 60vh;
+}
