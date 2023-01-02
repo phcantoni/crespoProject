@@ -56,6 +56,9 @@ header .firstNavHeader .liTwoFirstNavHeader {
 header .firstNavHeader .liFiveFirstNavHeader {
     width: 7vw;
 }
+header details {
+    display: none;
+}
 header section {
     display: flex;
     justify-content: center;
@@ -451,6 +454,9 @@ main .figTenFourthSectionMain img {
     width: 14vw;
     height: 60vh;
 }
+main .mobileThirdSectionMain {
+    display: none;
+}
 footer {
     display: flex;
     justify-content: space-around;
@@ -487,4 +493,62 @@ footer a {
     align-items: center;
     text-decoration: none;
     color: white;
+}
+/* --------------- MOBILE --------------- */
+@media screen and (max-width: 767px) {
+    
+    header {
+        justify-content: space-between;
+    }
+    header figure {
+        width: 65vw;
+    }
+    header .firstImgHeader {
+        width: 30vw;
+    }
+    header .desktopFirstNavHeader {
+        display: none;
+    }
+    header details {
+        display: inline-block;
+    }
+    header summary {
+        width: 25vw;
+        height: 12.5vh;
+        list-style: none;
+    }
+    header summary img {
+        width: 24.6vw;
+        height: 12.3vh;
+    }
+    header .mobileFirstNavHeader {
+        display: inline;
+        position: absolute;
+        height: 32vh;
+    }
+    header .mobileFirstNavHeader ul {
+        display: inline;
+        color: white;
+    }
+    header .mobileFirstNavHeader li {
+        display: flex;
+        align-items: center;
+        width: 50vw;
+        height: 5vh;
+        font-size: 1.5em;
+        margin: 2px 0;
+        padding-left: 1em;
+        background-color: #9767A9;
+    }
+    header .mobileFirstNavHeader li:hover {
+        font-weight: 900;
+        background-color: rgba(255, 255, 255, 0.637);
+    }
+    header section {
+        display: none;
+    }
+    header .secondNavHeader {
+        display: none;
+    }
+/* --------------- HEADER DONE --------------- */
 }
