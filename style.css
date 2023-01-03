@@ -551,4 +551,27 @@ footer a {
         display: none;
     }
 /* --------------- HEADER DONE --------------- */
+    main .firstSectionMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 60vh;
+        background-size: 250%;
+        background-repeat: no-repeat;
+        background-position: -11em 6em;
+    }
+    main .firstSectionMain h1 {
+        width: 77vw;
+        height: 32vh;
+        font-size: 3.5em;
+        line-height: 1.2em;
+    }
+    main .firstSectionMain p {
+        width: 77vw;
+        height: 10vh;
+        font-size: 1.4em;
+        word-spacing: 0px;
+        padding-right: 15vw;
+    }
 }
