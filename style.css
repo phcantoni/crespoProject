@@ -163,6 +163,9 @@ main .thirdSectionMain {
     width: 100%;
     height: 435vh;
 }
+main .mobileThirdSectionMain {
+    display: none;
+}
 main .thirdSectionMain .sectionOneThirdSectionMain {
     display: flex;
     flex-direction: column;
@@ -460,9 +463,6 @@ main .figTenFourthSectionMain img {
     width: 14vw;
     height: 60vh;
 }
-main .mobileThirdSectionMain {
-    display: none;
-}
 footer {
     display: flex;
     justify-content: space-around;
@@ -602,4 +602,49 @@ footer a {
         height: 8vh;
     }
 /* --------------- SECOND SECTION MAIN DONE --------------- */
+    main .thirdSectionMain {
+        display: none;
+    }
+    main .mobileThirdSectionMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 300vh;
+    }
+    main .mobileThirdSectionMain figure {
+        display: flex;
+        width: 80.5vw;
+        height: 70vh;
+        flex-direction: column;
+        align-items: center;
+        border: blue solid 10px;
+    }
+    main .mobileThirdSectionMain img {
+        width: 80vw;
+        height: 30vh;
+        border: red solid;
+    }
+    main .mobileThirdSectionMain figcaption {
+        width: 100%;
+        border: yellow solid;
+    }
+    main .mobileThirdSectionMain div {
+        width: 100%;
+        border: green solid;
+    }
+    main .mobileThirdSectionMain h3 {
+        width: 65vw;
+        font-size: 1.4em;
+        border: orangered solid;
+    }
+    main .mobileThirdSectionMain span {
+        font-size: 1.8em;
+        border: aqua solid;
+    }
+    main .mobileThirdSectionMain p {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        border: hotpink solid;
+    }
 }
