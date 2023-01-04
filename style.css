@@ -145,10 +145,16 @@ main .secondSectionMain p {
     display: flex;
     align-items: flex-end;
     width: 27vw;
-    height: 40vh;
+    height: 16vh;
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     color: white;
+}
+main .secondSectionMain p:first-of-type {
+    height: 12vh;
+}
+main .secondSectionMain p:last-of-type {
+    height: 10.5vh;
 }
 main .thirdSectionMain {
     display: flex;
@@ -574,4 +580,26 @@ footer a {
         word-spacing: 0px;
         padding-right: 15vw;
     }
+/* --------------- FIRST SECTION MAIN DONE --------------- */
+    main .secondSectionMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 45vh;
+        background: #9767A9;
+    }
+    main .secondSectionMain h2 {
+        width: 89vw;
+        font-size: 1.5em;
+    }
+    main .secondSectionMain p {
+        align-items: flex-end;
+        width: 88vw;
+        height: 13vh;
+    }
+    main .secondSectionMain p:first-of-type {
+        height: 8vh;
+    }
+/* --------------- SECOND SECTION MAIN DONE --------------- */
 }
