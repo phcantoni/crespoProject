@@ -154,7 +154,7 @@ main .secondSectionMain p:first-of-type {
     height: 12vh;
 }
 main .secondSectionMain p:last-of-type {
-    height: 11.5vh;
+    height: 12.5vh;
 }
 main .thirdSectionMain {
     display: flex;
