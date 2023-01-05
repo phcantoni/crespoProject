@@ -608,43 +608,108 @@ footer a {
     main .mobileThirdSectionMain {
         display: flex;
         flex-direction: column;
+        justify-content: flex-end;
         align-items: center;
         width: 100%;
-        height: 300vh;
-    }
-    main .mobileThirdSectionMain figure {
-        display: flex;
-        width: 80.5vw;
-        height: 70vh;
-        flex-direction: column;
-        align-items: center;
-        border: blue solid 10px;
+        height: 100vh;
     }
     main .mobileThirdSectionMain img {
         width: 80vw;
         height: 30vh;
-        border: red solid;
     }
     main .mobileThirdSectionMain figcaption {
         width: 100%;
-        border: yellow solid;
     }
     main .mobileThirdSectionMain div {
+        justify-content: space-evenly;
         width: 100%;
-        border: green solid;
+        padding-left: 10vw;
     }
     main .mobileThirdSectionMain h3 {
-        width: 65vw;
+        width: 63vw;
         font-size: 1.4em;
-        border: orangered solid;
     }
     main .mobileThirdSectionMain span {
-        font-size: 1.8em;
-        border: aqua solid;
+        font-size: 1em;
     }
     main .mobileThirdSectionMain p {
-        font-family: "Montserrat", sans-serif;
-        color: white;
-        border: hotpink solid;
+        width: 75vw;
+    }
+    main .figOneMobile {
+        height: 67vh;
+    }    
+    main .figOneMobile figcaption {
+        height: 34vh;
+    }
+    main .figOneMobile div {
+        height: 47vh;
+    }
+    main .figTwoMobile {
+        height: 74vh;
+    }
+    main .figTwoMobile figcaption {
+        height: 41vh;
+    }
+    main .figTwoMobile div {
+        height: 46vh;
+    }
+    main .figThreeMobile {
+        height: 60vh;
+    }
+    main .figThreeMobile figcaption {
+        height: 27vh;
+    }
+    main .figThreeMobile div {
+        height: 33vh;
+    }
+    main .figThreeMobile h3 {
+        width: 23vh;
+    }
+    main .figFourMobile {
+        height: 68vh;
+    }
+    main .figFourMobile figcaption {
+        height: 35vh;
+    }
+    main .figFourMobile div {
+        height: 37vh;
+    }
+    main .figFourMobile h3 {
+        width: 80vw;
+    }
+    main .figFiveMobile {
+        height: 66vh;
+    }
+    main .figFiveMobile figcaption {
+        height: 33vh;
+    }
+    main .figFiveMobile div {
+        height: 41vh;
+    }
+    main .figSixMobile {
+        height: 63vh;
+    }
+    main .figSixMobile figcaption {
+        height: 30vh;
+    }
+    main .figSixMobile div {
+        height: 34vh;
+    }
+    main .figSevenMobile {
+        height: 57vh;
+    }
+    main .figSevenMobile figcaption {
+        height: 24vh;
+    }
+    main .figSevenMobile div {
+        height: 29vh;
+    }
+    main .figEightMobile {
+        justify-content: center;
+        height: 20vh;
+    }
+    main .figEightMobile img {
+        width: 40vw;
+        height: 5vh;
     }
 }
