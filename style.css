@@ -419,6 +419,9 @@ main .fourthSectionMain {
     justify-content: center;
     height: 100vh;
 }
+main .mobileFourthSectionMain {
+    display: none;
+}
 main .fourthSectionMain section {
     margin: 0 0.2em;
 }
@@ -711,5 +714,13 @@ footer a {
     main .figEightMobile img {
         width: 40vw;
         height: 5vh;
+    }
+/* --------------- THIRD SECTION MAIN DONE --------------- */
+    main .fourthSectionMain {
+        display: none;
+    }
+    main .mobileFourthSectionMain {
+        display: flex;
+        flex-direction: column;
     }
 }
