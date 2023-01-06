@@ -744,39 +744,50 @@ footer a {
     main .figOneFourthSectionMain img {
         width: 45vw;
         height: 40vh;
+        margin: 5px 5px;
     }
     main .figThreeFourthSectionMain img {
         width: 22.5vw;
-        height: 12.5vh;
+        height: 13.2vh;
+        margin: 5px 5px;
     }
     main .figFourFourthSectionMain img {
         width: 22.5vw;
-        height: 12.5vh;
+        height: 13.2vh;
+        margin: 5px 5px;
     }
     main .figFiveFourthSectionMain img {
-        width: 45vw;
+        width: 47.5vw;
         height: 25vh;
+        margin: 5px 5px;
     }
     main .figTwoFourthSectionMain img {
-        width: 90vw;
+        width: 95vw;
         height: 30vh;
     }
     main .figEightFourthSectionMain img {
         width: 22.5vw;
         height: 25vh;
+        margin: 5px 5px;
     }
     main .figTenFourthSectionMain img {
         width: 22.5vw;
         height: 25vh;
+        margin: 5px 5px;
     }
     main .figNineFourthSectionMain img {
         width: 22.5vw;
-        height: 12.5vh;    }
+        height: 13.2vh;
+        margin: 5px 5px;
+    }
     main .figSevenFourthSectionMain img {
         width: 22.5vw;
-        height: 12.5vh;    }
+        height: 13.2vh;
+        margin: 5px 5px;
+    }
     main .figSixFourthSectionMain img {
         width: 45vw;
         height: 40vh;
+        margin: 5px 5px;
     }
 }
