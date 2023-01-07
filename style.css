@@ -474,10 +474,16 @@ footer {
     height: 15vh;
     background-color: #9767A9;
 }
+footer h3 {
+    display: none;
+}
 footer p {
     font-family: "Montserrat", sans-serif;
     font-size: 0.8em;
     color: white;
+}
+footer .mobileNavFooter {
+    display: none;
 }
 footer ul {
     display: flex;
@@ -789,5 +795,56 @@ footer a {
         width: 45vw;
         height: 40vh;
         margin: 5px 5px;
+    }
+/* --------------- FOURTH SECTION MAIN DONE --------------- */
+    footer {
+        flex-direction: column-reverse;
+        height: 27vh;
+        background-color: white;
+    }
+    footer h3 {
+        display: inline;
+    }
+    footer p {
+        width: 95vw;
+        font-size: 0.5em;
+        font-weight: 600;
+        color: black;
+    }
+    footer .desktopNavFooter {
+        display: none;
+    }
+    footer .mobileNavFooter {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 95vw;
+        height: 15vh;
+    }
+    footer .ulOneMobileNavFooter {
+        width: 35vw;
+    }
+    footer .ulOneMobileNavFooter img {
+        width: 13vw;
+        height: 6.5vh;
+    }
+    footer .ulTwoMobileNavFooter {
+        display: flex;
+        align-items: center;
+        width: 35vw;
+    }
+    footer .ulTwoMobileNavFooter li {
+        display: flex;
+        justify-content: center;
+        width: 10vw;
+        height: 5vh;
+        border-radius: 50%;
+        background-color: #9767A9;
+    }
+    footer li:hover {
+        
+    }
+    footer a {
+        
     }
 }
